@@ -1,0 +1,20 @@
+.bars {
+            background-color: transparent !important;
+        }
+
+.scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out !important;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out !important;
+            transition: background .5s ease-in-out, padding .5s ease-in-out !important;
+        }
+
+.top-nav-collapse {
+            background-color: #ff4081 !important;
+        }        
+
+@media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #2b3f66 !important;
+            }
+        }        
+
